@@ -1,14 +1,25 @@
+
+body {
+    background-color: #cccab3;
+}
+
+
 .header-box {
     background-color: #9bdfe6;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-align: center;
     width: 100%;
+    border: #001e77 2px solid;
+    margin-bottom: 60px;
 }
 .title {
     text-align: center;
     margin-top: 20px;
-
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Copperplate Gothic Light', sans-serif;
 }
 
 .menu {
@@ -16,5 +27,43 @@
 }
 
 .menu-item {
+    display: inline-block;
+    margin: 0 60px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.recipe-list li {
+    margin-bottom: 20px;
+}
+
+
+.recipe-item {
+    margin-bottom: 50px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    border:#302916 2px solid;
+}
+
+.recipe-link {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
 }
